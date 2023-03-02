@@ -4,6 +4,8 @@ export interface TrustMapNode {
   arc__failed: number;
   arc__passed: number;
   detail__role: "pod" | "service";
+  detail__certcount?: number;
+  detail__imagesig?: string;
   mainStat: string;
   subTitle: string;
 }

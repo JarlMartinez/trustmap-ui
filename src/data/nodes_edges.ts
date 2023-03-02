@@ -1,4 +1,4 @@
-import { TrustMapNode } from "./types";
+import { TrustMapNode } from "../types";
 
 export const initialEdges = [
   {
@@ -55,6 +55,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 140,
+    detail__imagesig: "Signed by CN=dev.venafidemo.com",
     detail__role: "pod",
     id: "a097c076-5138-4472-af48-ca51dfea3a13",
     mainStat: "yyyyy",
@@ -64,6 +66,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 140,
+    detail__imagesig: "None",
     detail__role: "pod",
     id: "1f2846c2-3fdf-471a-a93f-2e4942a8e6ef",
     mainStat: "yyyyy",
@@ -73,6 +77,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 675,
+    detail__imagesig: "None",
     detail__role: "pod",
     id: "91508c21-a599-497c-9927-13d15b894495",
     mainStat: "yyyyy",
@@ -80,8 +86,10 @@ export const initialNodes: TrustMapNode[] = [
     title: "contacts-5c9f774c55-fzcbj",
   },
   {
-    arc__failed: 0.7,
-    arc__passed: 0.3,
+    arc__failed: 0.1,
+    arc__passed: 0.9,
+    detail__certcount: 667,
+    detail__imagesig: "Signed by CN=signer.venafidemo.com",
     detail__role: "pod",
     id: "0bf6cb1e-9bc6-4f76-b580-490c173bebce",
     mainStat: "yyyyy",
@@ -91,6 +99,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 140,
+    detail__imagesig: "None",
     detail__role: "pod",
     id: "667f514b-4265-40c9-8458-1c0d352d2937",
     mainStat: "yyyyy",
@@ -100,6 +110,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 140,
+    detail__imagesig: "None",
     detail__role: "pod",
     id: "f8b8f1a6-80f6-49a4-8b39-ef23b29d6ed3",
     mainStat: "yyyyy",
@@ -109,6 +121,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 541,
+    detail__imagesig: "Signed by Unknown KeyPair",
     detail__role: "pod",
     id: "797345b6-4122-4a05-8988-6a49ae2fac5a",
     mainStat: "yyyyy",
@@ -118,6 +132,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 140,
+    detail__imagesig: "None",
     detail__role: "pod",
     id: "67ada3f7-18b5-483d-aed5-2e33cff94b4d",
     mainStat: "yyyyy",
@@ -127,6 +143,8 @@ export const initialNodes: TrustMapNode[] = [
   {
     arc__failed: 0.7,
     arc__passed: 0.3,
+    detail__certcount: 675,
+    detail__imagesig: "None",
     detail__role: "pod",
     id: "8fbe2b37-ca91-4d36-9be5-cd525d4ee0ad",
     mainStat: "yyyyy",

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight {
+  top: 75px;
+  border-top: 1px solid #c6c6c6;
+  box-shadow: 20px 0px 10px 20px #a4a4a4;
+  clip-path: inset(0 0 0 -10px);
+}
+
+.react-flow__node.react-flow__node-default {
+  width: 200px;
+}
