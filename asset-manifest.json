@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d99760f.css",
+    "main.js": "/static/js/main.94314113.js",
+    "static/media/logo-venafi.svg": "/static/media/logo-venafi.30cbdca2a8c0478b2eeefb4516e79a2a.svg",
+    "index.html": "/index.html",
+    "main.5d99760f.css.map": "/static/css/main.5d99760f.css.map",
+    "main.94314113.js.map": "/static/js/main.94314113.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d99760f.css",
+    "static/js/main.94314113.js"
+  ]
+}
